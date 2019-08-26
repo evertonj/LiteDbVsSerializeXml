@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services", "2 - Services", "{E11D4418-A355-4FA8-B53E-0F2F88DA3689}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{46612615-E3D5-4680-863F-2590A520C316}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{2E695921-2653-4EE2-913F-ABC9E491919F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{6A8F9072-25A4-4005-9319-724E71C0CF7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{B51CAAFF-4A81-4569-9D3D-72D4B34C1E09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Data", "5.1 - Data", "{CBC4A49E-AC38-46D2-BD63-F12A67443DF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - Crosscuting", "5.2 - Crosscuting", "{852C0134-D338-409C-80EC-0CCF2A344B4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProvaDeConceitoCrudDatabaseVsSerializacao.Domain", "ProvaDeConceitoCrudDatabaseVsSerializacao.Domain\ProvaDeConceitoCrudDatabaseVsSerializacao.Domain.csproj", "{D612E0D2-A81F-4919-B9C2-BE1485A49BCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1.1 - Database", "5.1.1 - Database", "{FFE2726D-034F-49D7-9EA9-FEEF0D00DB5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1.2 - SerializedData", "5.1.2 - SerializedData", "{74DBC9CA-7856-4DC9-90D5-E100CD6B4569}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProvaDeConceitoCrudDatabaseVsSerializacao.Data.Database", "ProvaDeConceitoCrudDatabaseVsSerializacao.Data.Database\ProvaDeConceitoCrudDatabaseVsSerializacao.Data.Database.csproj", "{E8606935-AB09-417D-B820-F77B8F0EC74B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Tests", "6 - Tests", "{ED939FC7-E626-44C0-9F45-4FEAE2B44B8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProvaDeConceitoCrudDatabaseVsSerializacao.Tests", "ProvaDeConceitoCrudDatabaseVsSerializacao.Tests\ProvaDeConceitoCrudDatabaseVsSerializacao.Tests.csproj", "{31299933-C5B7-4611-9868-7A831F7D2BB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProvaDeConceitoCrudDatabaseVsSerializacao.Data.SerializedData", "ProvaDeConceitoCrudDatabaseVsSerializacao.Data.SerializedData\ProvaDeConceitoCrudDatabaseVsSerializacao.Data.SerializedData.csproj", "{FD1F1F6E-2ED8-4DE1-B413-6DD84CD70500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaDeConceitoCrudDatabaseVsSerializacao.Application", "ProvaDeConceitoCrudDatabaseVsSerializacao.Application\ProvaDeConceitoCrudDatabaseVsSerializacao.Application.csproj", "{FB66D40D-C18E-479B-89D9-AB481C980A82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaDeConceitoCrudDatabaseVsSerializacao.Service.API", "ProvaDeConceitoCrudDatabaseVsSerializacao.Service.API\ProvaDeConceitoCrudDatabaseVsSerializacao.Service.API.csproj", "{1E598B12-07B6-4E80-BE56-EF92C3D23B72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaDeConceitoCrudDatabaseVsSerializacao.CrossCuting.IoC", "ProvaDeConceitoCrudDatabaseVsSerializacao.CrossCuting.IoC\ProvaDeConceitoCrudDatabaseVsSerializacao.CrossCuting.IoC.csproj", "{4A751C30-4E5D-4B4C-8C63-9BA3EFE469CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaDeConceitoCrudDatabaseVsSerializacao.Test.API", "ProvaDeConceitoCrudDatabaseVsSerializacao.Test.API\ProvaDeConceitoCrudDatabaseVsSerializacao.Test.API.csproj", "{70766709-7DC0-4D87-B1C4-1E380D91F95D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D612E0D2-A81F-4919-B9C2-BE1485A49BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D612E0D2-A81F-4919-B9C2-BE1485A49BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D612E0D2-A81F-4919-B9C2-BE1485A49BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D612E0D2-A81F-4919-B9C2-BE1485A49BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8606935-AB09-417D-B820-F77B8F0EC74B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8606935-AB09-417D-B820-F77B8F0EC74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8606935-AB09-417D-B820-F77B8F0EC74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8606935-AB09-417D-B820-F77B8F0EC74B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31299933-C5B7-4611-9868-7A831F7D2BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31299933-C5B7-4611-9868-7A831F7D2BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31299933-C5B7-4611-9868-7A831F7D2BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31299933-C5B7-4611-9868-7A831F7D2BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD1F1F6E-2ED8-4DE1-B413-6DD84CD70500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1F1F6E-2ED8-4DE1-B413-6DD84CD70500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1F1F6E-2ED8-4DE1-B413-6DD84CD70500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1F1F6E-2ED8-4DE1-B413-6DD84CD70500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB66D40D-C18E-479B-89D9-AB481C980A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB66D40D-C18E-479B-89D9-AB481C980A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB66D40D-C18E-479B-89D9-AB481C980A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB66D40D-C18E-479B-89D9-AB481C980A82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E598B12-07B6-4E80-BE56-EF92C3D23B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E598B12-07B6-4E80-BE56-EF92C3D23B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E598B12-07B6-4E80-BE56-EF92C3D23B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E598B12-07B6-4E80-BE56-EF92C3D23B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A751C30-4E5D-4B4C-8C63-9BA3EFE469CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A751C30-4E5D-4B4C-8C63-9BA3EFE469CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A751C30-4E5D-4B4C-8C63-9BA3EFE469CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A751C30-4E5D-4B4C-8C63-9BA3EFE469CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70766709-7DC0-4D87-B1C4-1E380D91F95D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70766709-7DC0-4D87-B1C4-1E380D91F95D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70766709-7DC0-4D87-B1C4-1E380D91F95D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70766709-7DC0-4D87-B1C4-1E380D91F95D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CBC4A49E-AC38-46D2-BD63-F12A67443DF0} = {B51CAAFF-4A81-4569-9D3D-72D4B34C1E09}
+		{852C0134-D338-409C-80EC-0CCF2A344B4A} = {B51CAAFF-4A81-4569-9D3D-72D4B34C1E09}
+		{D612E0D2-A81F-4919-B9C2-BE1485A49BCF} = {6A8F9072-25A4-4005-9319-724E71C0CF7F}
+		{FFE2726D-034F-49D7-9EA9-FEEF0D00DB5F} = {CBC4A49E-AC38-46D2-BD63-F12A67443DF0}
+		{74DBC9CA-7856-4DC9-90D5-E100CD6B4569} = {CBC4A49E-AC38-46D2-BD63-F12A67443DF0}
+		{E8606935-AB09-417D-B820-F77B8F0EC74B} = {FFE2726D-034F-49D7-9EA9-FEEF0D00DB5F}
+		{31299933-C5B7-4611-9868-7A831F7D2BB3} = {ED939FC7-E626-44C0-9F45-4FEAE2B44B8D}
+		{FD1F1F6E-2ED8-4DE1-B413-6DD84CD70500} = {74DBC9CA-7856-4DC9-90D5-E100CD6B4569}
+		{FB66D40D-C18E-479B-89D9-AB481C980A82} = {2E695921-2653-4EE2-913F-ABC9E491919F}
+		{1E598B12-07B6-4E80-BE56-EF92C3D23B72} = {E11D4418-A355-4FA8-B53E-0F2F88DA3689}
+		{4A751C30-4E5D-4B4C-8C63-9BA3EFE469CD} = {852C0134-D338-409C-80EC-0CCF2A344B4A}
+		{70766709-7DC0-4D87-B1C4-1E380D91F95D} = {ED939FC7-E626-44C0-9F45-4FEAE2B44B8D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {014515C8-EDFD-4BDE-9350-954240F2E788}
+	EndGlobalSection
+EndGlobal
